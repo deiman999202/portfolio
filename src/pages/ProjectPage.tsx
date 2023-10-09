@@ -64,7 +64,7 @@ const ProjectPage = () => {
     ]
 
   return (
-    <div className="h-screen flex flex-col items-center gap-4 mt-16 md:mt-32 px-4 overflow-auto">
+    <div className="flex flex-col items-center gap-4 mt-16 md:mt-32 px-4 overflow-auto">
       {
         <Project key={projects[projectNumber].name} projectInfo={projects[projectNumber]} />
       }

@@ -7,7 +7,7 @@ import telegram from '../assets/telegram.png'
 
 const FrontPage = () => {
   return (
-    <section className="h-screen flex flex-col items-center mt-36 ">
+    <section className="flex flex-col items-center mt-36 ">
         <aside className="absolute bottom-2 lg:bottom-48 lg:left-2 flex lg:flex-col bg-white p-2 rounded-lg w-72 lg:w-16 gap-8 lg:gap-4 items-center">
             <a href="https://github.com/deiman999202" target='_blank' rel="noreferrer">
                 <img src={github} alt="github" />
